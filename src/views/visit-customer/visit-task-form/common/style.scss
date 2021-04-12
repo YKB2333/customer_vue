@@ -1,0 +1,37 @@
+/deep/ .type-btn{
+  margin-left: 14px;
+  height: 24px;
+  &.van-button--default{
+    border-color: #F5F6F9;
+    background-color: #F5F6F9;
+    color: #C7CBD3;
+  }
+  &.van-button--info{
+    border-color: #3A78EF;
+    background-color: #EBF1FD;
+    color: #3A78EF;
+  }
+}
+/deep/ .icon-delete{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -8px;
+  right: -4px;
+}
+/deep/ .van-grid-item__content{
+  padding: 0;
+}
+/deep/ .data-item{
+  background-color: #ffffff;
+  &:not(:last-child){
+    margin-bottom: 10px;
+  }
+}
+/deep/ .van-tab{
+  font-size: 15px;
+}
+/deep/ .van-tabs__wrap{
+  padding: 0 14px;
+  background-color: #ffffff;
+}
